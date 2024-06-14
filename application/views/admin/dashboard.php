@@ -32,8 +32,7 @@
             <img src="<?php echo base_url(). '/gambar/'.$mn->gambar?>" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title mb-1"><?php echo $mn->nm_menu?></h5>
-                    <small><?php echo $mn->detail?></small><br>
-                    <span class="badge badge-pill badge-primary mb-3">Rp. <?php echo number_format ($mn->harga, 0,',','.') ?>
+                    <span class="badge badge-pill mb-3" style="background-color:black; color:white;">Rp. <?php echo number_format ($mn->harga, 0,',','.') ?>
                     </span><br>
                  </div>
         </div>
