@@ -32,7 +32,7 @@
                             <input type="text" name="no_telp" placeholder="Masukan Nomor Telpon Anda" class="form-control">
                         </div>
 
-                        <button type="submit" class="btn btn-sm mt-3" style="background-color:green; color:white;">Bayar</button>
+                        <button type="submit" class="btn btn-sm mt-3" style="background-color:green; color:white;">Pesan</button>
                     </form>
 
                     <?php

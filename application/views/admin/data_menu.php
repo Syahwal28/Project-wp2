@@ -24,8 +24,6 @@
             <td><?php echo $mn->harga?></td>
             <td><?php echo $mn->stok?></td>
 
-            <td><div class="btn btn-success btn-sm"><i class="fas fa-search-plus"></i></div></td>
-
             <td><?php echo anchor('admin/Data_menu/edit/'.$mn->id_menu, '<div class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></div>')?> </td>
 
             <td><?php echo anchor('admin/Data_menu/hapus/'. $mn->id_menu,'<div class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></div>')?></td>

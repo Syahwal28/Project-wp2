@@ -30,6 +30,6 @@
     <div>
         <a href="<?php echo base_url('Dashboard/hapus_keranjang')?>"> <div class="btn btn-sm btn-danger">Hapus Keranjang</div></a>
         <a href="<?php echo base_url('welcome')?>"> <div class="btn btn-sm" style="background-color:orange; color:white;">Lanjut Pilih Menu</div></a>
-        <a href="<?php echo base_url('Dashboard/pembayaran')?>"><div align="right"><div class="btn btn-sm" style="background-color:green; color:white;">Bayar Sekarang</div></a></div>
+        <a href="<?php echo base_url('Dashboard/pembayaran')?>"><div align="right"><div class="btn btn-sm" style="background-color:green; color:white;">Pesan Sekarang</div></a></div>
     </div>
 </div>

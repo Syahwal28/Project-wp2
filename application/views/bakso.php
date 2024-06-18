@@ -32,10 +32,10 @@
             <img src="<?php echo base_url(). '/gambar/'.$mn->gambar?>" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title mb-1"><?php echo $mn->nm_menu?></h5>
-                    <span class="badge badge-pill badge-primary mb-3">Rp. <?php echo number_format ($mn->harga, 0,',','.') ?>
+                    <span class="badge badge-pill mb-3" style="color:white;background-color:black;">Rp. <?php echo number_format ($mn->harga, 0,',','.') ?>
                     </span><br>
-                    <?php echo anchor('Dashboard/masukan_keranjang/'. $mn->id_menu, '<div class="btn btn-sm btn-danger">Masukan Keranjang</div>') ?>
-                    <?php echo anchor('Dashboard/detail_menu/'. $mn->id_menu, '<div class="btn btn-sm btn-success">Detail</div>') ?>
+                    <?php echo anchor('Dashboard/masukan_keranjang/'. $mn->id_menu, '<div class="btn btn-sm " style="color:white;background-color:green;">Masukan Keranjang</div>') ?>
+                    <?php echo anchor('Dashboard/detail_menu/'. $mn->id_menu, '<div class="btn btn-sm "style="color:white;background-color:red;">Detail</div>') ?>
                  </div>
         </div>
     <?php endforeach; ?>
